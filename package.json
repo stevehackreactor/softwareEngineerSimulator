@@ -4,11 +4,24 @@
   "description": "Be a software engineer, but not really. Only in the virtual world",
   "main": "index.js",
   "dependencies": {
-    "react-redux": "^7.2.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "live-server": "^1.2.1",
+    "webpack": "^5.21.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
