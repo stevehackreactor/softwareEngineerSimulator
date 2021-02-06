@@ -1,0 +1,23 @@
+{
+  "name": "software-engineer-simulator",
+  "version": "0.1.0",
+  "description": "Be a software engineer, but not really. Only in the virtual world",
+  "main": "index.js",
+  "dependencies": {
+    "react-redux": "^7.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehackreactor/softwareEngineerSimulator.git"
+  },
+  "author": "Steve and Company",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/stevehackreactor/softwareEngineerSimulator/issues"
+  },
+  "homepage": "https://github.com/stevehackreactor/softwareEngineerSimulator#readme"
+}
